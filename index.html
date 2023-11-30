@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SmartCity v4</title>
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous"
+    />
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <script
+        src="https://kit.fontawesome.com/fe8147c79a.js"
+        crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/shared.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+
+    <header>
+        <nav
+            class="navbar navbar-expand-md navbar-dark bg-dark shadow mb-5"
+            aria-label="Third navbar example"
+            id="main-nav"
+        >
+            <div class="container">
+                <div id="main-nav-tabs">
+                    <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample03"
+                    aria-controls="navbarsExample03"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExample03">
+                    <!-- im owned by navbar-nav " me-auto mb-2 mb-sm-0" -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#"
+                                >صفحه اصلی</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/about.html">درباره ما</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                                >خدمات ما</a
+                            >
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >خدمات تحصیلی</a
+                                    >
+                                </li>
+                                <li class="dropdown-divider"></li>
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >بهداشت و درمان</a
+                                    >
+                                </li>
+                                <li class="dropdown-divider"></li>
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >خدمات مالی</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- <form role="search">
+                        <input
+                            class="form-control"
+                            type="search"
+                            placeholder="جستجو"
+                            aria-label="Search"
+                        />
+                    </form> -->
+                </div>
+                </div>
+
+                <a class="navbar-brand mr-auto" href="#">
+                    SmartCity
+                    <span class="bi bi-activity"></span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="container mt-md-5 ">
+                <div class="row align-items-center hero">
+                    <div class="col-md-6">
+                        <img src="./images/boston.svg" alt="">
+                    </div>
+                    <div class="col-md-6 mt-md-5 mx-md-auto ms-5 intro-text">
+                        <h2 class="fw-bold hero-intro ">به آینده خوش آمدید!</h4>
+                        <!-- <h4 class="fw-bold hero-intro">Ready to discover?</h4> -->
+                        <a href="#">بیشتر...</a>
+                        <h5 class="fw-bold my-4 text-primary"></h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <img src="./images/wave.svg" alt="">
+
+        <section style="background-color: #9ED2C6;">
+            <div class="container-fluid p-5">
+                <div class="row row-cols-1 row-cols-md-2 g-4 p-5">
+                    <div class="col">
+                    <div class="card m-2">
+                        <img src='https://picsum.photos/1000/500' class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">خدمات زیبایی</h5>
+                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده </p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <div class="card m-2">
+                        <img src='https://picsum.photos/1000/500' class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">خدمات پزشکی</h5>
+                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده </p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <div class="card m-2">
+                        <img src='https://picsum.photos/1000/500' class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">خدمات مالی</h5>
+                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده </p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <div class="card m-2">
+                        <img src='https://picsum.photos/1000/500' class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">خدمات </h5>
+                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+              </div>
+        </section>
+        
+        <img src="./images/wave2.svg" alt="">
+
+        <section class="container-fluid">
+            <div class="row p-5">
+                <div class="col-sm-6">
+                    <img src="./images/info-flow.svg" alt="">
+                </div>
+                <div class="col-sm-6 align-items-center align-middle d-flex align-items-center">
+                    <p">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون</p>        
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="container-fluid p-0">
+        <footer class="bg-dark text-center text-white" id="main-footer">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+                <!-- Section: Social media -->
+                <section class="mb-4">
+                    <!-- Facebook -->
+                    <a
+                        class="btn btn-outline-light btn-floating m-1"
+                        href="#!"
+                        role="button"
+                        ><i class="fab fa-facebook-f"></i
+                    ></a>
+
+                    <!-- Twitter -->
+                    <a
+                        class="btn btn-outline-light btn-floating m-1"
+                        href="#!"
+                        role="button"
+                        ><i class="fab fa-twitter"></i
+                    ></a>
+
+                    <!-- Google -->
+                    <a
+                        class="btn btn-outline-light btn-floating m-1"
+                        href="#!"
+                        role="button"
+                        ><i class="fab fa-google"></i
+                    ></a>
+
+                    <!-- Instagram -->
+                    <a
+                        class="btn btn-outline-light btn-floating m-1"
+                        href="#!"
+                        role="button"
+                        ><i class="fab fa-instagram"></i
+                    ></a>
+
+                    <!-- Linkedin -->
+                    <a
+                        class="btn btn-outline-light btn-floating m-1"
+                        href="#!"
+                        role="button"
+                        ><i class="fab fa-linkedin-in"></i
+                    ></a>
+
+                    <!-- Github -->
+                    <a
+                        class="btn btn-outline-light btn-floating m-1"
+                        href="#!"
+                        role="button"
+                        ><i class="fab fa-github"></i
+                    ></a>
+                </section>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div
+                class="text-center p-3"
+                style="background-color: rgba(0, 0, 0, 0.2)"
+            >
+                © 2023 Copyright:
+                <a class="text-white" href="#">SmartCity.io</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "ravi";
+    src: url(./fonts/Ravi-ExtraBold.woff2);
+}
+
+html {
+    direction: rtl;
+
+    background-color: #eeeeee !important;
+}
+
+body {
+    color: #000 !important;
+    font-family: "ravi" !important;
+
+    min-height: 100vh !important;
+    margin: 0;
+
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+#main-nav {
+    background-color: #3a98b9 !important;
+    margin: 0;
+}
+
+/* @media (max-width: 576px) {
+    #main-nav {
+        position: absolute;
+        bottom: 0 !important;
+    }
+} */
+
+@media (max-width: 576px) {
+    #main-nav-tabs {
+        order: -1;
+    }
+}
+
+#main-footer {
+    background-color: #3a98b9 !important;
+    bottom: 0;
+
+    /* position: absolute; */
+    background-color: red;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    /* margin-top: 2rem; */
+}
+
+@media (max-width: 576px) {
+    #main-footer {
+        display: none;
+    }
+}
